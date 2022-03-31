@@ -173,6 +173,10 @@ button:hover {
 .first-content.show {
   display: none;
 }
+
+.orange.show {
+  background-color: pink;
+}
 /* JavaScript implementation stops here */
 
 @media only screen and (min-width: 500px) {
