@@ -1,11 +1,53 @@
 const btn = document.querySelector(".btn");
 const first = document.querySelector(".first-content");
 const second = document.querySelector(".second-content");
-const rate = document.querySelector("rate-circle");
-const orange = document.querySelector("orange");
-const grey = document.querySelector("grey");
 
-btn.addEventListener("click", () => {
-  first.classList.toggle("show");
-  second.classList.toggle("show");
-});
+one = () => {
+  btn.addEventListener("click", () => {
+    document.getElementById(
+      "select"
+    ).innerHTML = `<p>You selected out 1 of 5<p>`;
+    first.classList.toggle("show");
+    second.classList.toggle("show");
+  });
+};
+
+two = () => {
+  btn.addEventListener("click", () => {
+    document.getElementById(
+      "select"
+    ).innerHTML = `<p>You selected out 2 of 5<p>`;
+    first.classList.toggle("show");
+    second.classList.toggle("show");
+  });
+};
+
+three = () => {
+  btn.addEventListener("click", () => {
+    document.getElementById(
+      "select"
+    ).innerHTML = `<p>You selected out 3 of 5<p>`;
+    first.classList.toggle("show");
+    second.classList.toggle("show");
+  });
+};
+
+four = () => {
+  btn.addEventListener("click", () => {
+    document.getElementById(
+      "select"
+    ).innerHTML = `<p>You selected out 4 of 5<p>`;
+    first.classList.toggle("show");
+    second.classList.toggle("show");
+  });
+};
+
+five = () => {
+  btn.addEventListener("click", () => {
+    document.getElementById(
+      "select"
+    ).innerHTML = `<p>You selected out 5 of 5<p>`;
+    first.classList.toggle("show");
+    second.classList.toggle("show");
+  });
+};
