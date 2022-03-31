@@ -20,7 +20,7 @@ My name is Ajor Moses, I'm open to learning and improvement, Thanks for checking
 
 - [Links](#links)
 - Solution URL: [ https://github.com/ajormoses/interactive-rating-component.git ]
-- Live Site URL: [ still in Progress ]
+- Live Site URL: [ https://ajormoses.github.io/interactive-rating-component/ ]
 
 - [Built with](#built-with)
   I use HTML, CSS & JAVASCRIPT to build this design
